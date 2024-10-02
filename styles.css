@@ -1,0 +1,118 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 50px 0 20px 0;
+    background-color: #00abff;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-family: "Pacifico", normal;
+    font-size: x-large;
+
+}
+
+header h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+/* Images Section */
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.images img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+}
+
+/* Main Content Styling */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    font-size: 1.8em;
+    color: #00bfff;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #00bfff;
+    display: inline-block;
+}
+
+article p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+/* Anecdote Section */
+.anecdote {
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-left: 5px solid #00bfff;
+    border-radius: 4px;
+}
+
+.anecdote h2 {
+    font-size: 1.6em;
+    color: #005f7a;
+    margin-bottom: 10px;
+}
+
+.anecdote p {
+    font-size: 1.05em;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    .images img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .images img {
+        width: 100%;
+    }
+}
