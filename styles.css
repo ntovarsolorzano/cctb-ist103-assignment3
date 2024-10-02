@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    /*font-family: 'Arial', sans-serif;*/
+    font-family: 'Merriweather';
     line-height: 1.6;
     background-color: #ffffff;
     color: #333;
